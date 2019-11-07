@@ -1,0 +1,92 @@
+body, button{
+    font-size: 24px;
+}
+.operator{
+    color: green;
+}
+#calculator{
+    background: red;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+button{
+    padding: 30px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 100px;
+}
+#display{
+    background: white;
+    padding: 25px 200px;
+    grid-column:4/8;
+    grid-row: 3/4;
+}
+#nine{
+    grid-column: 4/5;
+    grid-row: 4/5;
+}
+#eight{
+    grid-column: 5/6;
+    grid-row: 4/5;
+}
+#seven{
+    grid-column: 6/7;
+    grid-row: 4/5;
+}
+#plus{
+    grid-column: 7/8;
+    grid-row: 4/5;
+}
+#six{
+    grid-column: 4/5;
+    grid-row: 5/6;
+}
+#five{
+    grid-column: 5/6;
+    grid-row: 5/6;
+}
+#four{
+    grid-column: 6/7;
+    grid-row: 5/6;
+}
+#minus{
+    grid-column: 7/8;
+    grid-row: 5/6;
+}
+#three{
+    grid-column: 4/5;
+    grid-row: 6/7;
+}
+#two{
+    grid-column: 5/6;
+    grid-row: 6/7;
+}
+#one{
+    grid-column: 6/7;
+    grid-row: 6/7;
+}
+#multiply{
+    grid-column: 7/8;
+    grid-row: 6/7;
+}
+#zero{
+    grid-column: 5/6;
+    grid-row: 7/8;
+}
+#decimal{
+    grid-column: 6/7;
+    grid-row: 7/8;
+}
+#divide{
+    grid-column: 7/8;
+    grid-row: 7/8;
+}
+#equals{
+    grid-column: 4/5;
+    grid-row: 7/8;
+}
